@@ -4,9 +4,9 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-primary text-primary-foreground py-16">
+    <footer className="bg-primary text-primary-foreground py-12">
       <div className="container mx-auto px-6">
-        <div className="grid md:grid-cols-4 gap-8 mb-12">
+        <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
@@ -15,96 +15,43 @@ const Footer = () => {
               </div>
               <span className="text-xl font-bold">BuildLink</span>
             </div>
-            <p className="text-primary-foreground/80 leading-relaxed">
-              Connecting Kenya's built environment professionals through a unified digital platform.
-            </p>
-            <div className="flex space-x-4">
-              <a href="#" className="text-primary-foreground/60 hover:text-secondary transition-colors">
-                <Linkedin size={20} />
-              </a>
-              <a href="#" className="text-primary-foreground/60 hover:text-secondary transition-colors">
-                <Twitter size={20} />
-              </a>
-              <a href="#" className="text-primary-foreground/60 hover:text-secondary transition-colors">
-                <Instagram size={20} />
-              </a>
-            </div>
           </div>
 
           {/* Quick Links */}
-          <div>
-            <h4 className="font-semibold mb-4">Platform</h4>
-            <ul className="space-y-2">
-              <li>
-                <a href="#features" className="text-primary-foreground/80 hover:text-secondary transition-colors">
-                  Features
-                </a>
-              </li>
-              <li>
-                <a href="#directory" className="text-primary-foreground/80 hover:text-secondary transition-colors">
-                  Directory
-                </a>
-              </li>
-              <li>
-                <a href="#events" className="text-primary-foreground/80 hover:text-secondary transition-colors">
-                  Events
-                </a>
-              </li>
-              <li>
-                <a href="#resources" className="text-primary-foreground/80 hover:text-secondary transition-colors">
-                  Resources
-                </a>
-              </li>
-            </ul>
+          <div className="text-center">
+            <div className="flex justify-center space-x-6">
+              <a href="#about" className="text-primary-foreground/80 hover:text-secondary transition-colors">
+                About
+              </a>
+              <a href="#contact" className="text-primary-foreground/80 hover:text-secondary transition-colors">
+                Contact
+              </a>
+              <a href="#blog" className="text-primary-foreground/80 hover:text-secondary transition-colors">
+                Blog
+              </a>
+              <a href="#terms" className="text-primary-foreground/80 hover:text-secondary transition-colors">
+                Terms
+              </a>
+              <a href="#privacy" className="text-primary-foreground/80 hover:text-secondary transition-colors">
+                Privacy
+              </a>
+            </div>
           </div>
 
-          {/* Company */}
-          <div>
-            <h4 className="font-semibold mb-4">Company</h4>
-            <ul className="space-y-2">
-              <li>
-                <a href="#about" className="text-primary-foreground/80 hover:text-secondary transition-colors">
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a href="#blog" className="text-primary-foreground/80 hover:text-secondary transition-colors">
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a href="#contact" className="text-primary-foreground/80 hover:text-secondary transition-colors">
-                  Contact
-                </a>
-              </li>
-              <li>
-                <a href="#careers" className="text-primary-foreground/80 hover:text-secondary transition-colors">
-                  Careers
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          {/* Contact */}
-          <div>
-            <h4 className="font-semibold mb-4">Get in Touch</h4>
-            <div className="space-y-3">
-              <div className="flex items-center space-x-3">
-                <Mail size={16} className="text-secondary" />
-                <span className="text-primary-foreground/80">hello@buildlink.co.ke</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <Building2 size={16} className="text-secondary" />
-                <span className="text-primary-foreground/80">Nairobi, Kenya</span>
-              </div>
-            </div>
-            
-            {/* AAK Support */}
-            <div className="mt-6 p-3 bg-primary-foreground/10 rounded-lg">
-              <p className="text-xs text-primary-foreground/70">
-                Supported by the Architectural Association of Kenya (AAK)
-              </p>
-            </div>
+          {/* Contact Icons */}
+          <div className="flex justify-end space-x-4">
+            <a href="mailto:hello@buildlink.co.ke" className="text-primary-foreground/60 hover:text-secondary transition-colors">
+              <Mail size={20} />
+            </a>
+            <a href="#" className="text-primary-foreground/60 hover:text-secondary transition-colors">
+              <Linkedin size={20} />
+            </a>
+            <a href="#" className="text-primary-foreground/60 hover:text-secondary transition-colors">
+              <Twitter size={20} />
+            </a>
+            <a href="#" className="text-primary-foreground/60 hover:text-secondary transition-colors">
+              <Instagram size={20} />
+            </a>
           </div>
         </div>
 

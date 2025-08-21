@@ -3,7 +3,6 @@ import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import FeaturesSection from "@/components/FeaturesSection";
 import HowItWorksSection from "@/components/HowItWorksSection";
-import SocialProofSection from "@/components/SocialProofSection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
 
@@ -15,7 +14,6 @@ const Index = () => {
       <AboutSection />
       <FeaturesSection />
       <HowItWorksSection />
-      <SocialProofSection />
       <CTASection />
       <Footer />
     </div>

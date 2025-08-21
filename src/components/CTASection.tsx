@@ -25,15 +25,9 @@ const CTASection = () => {
           </div>
 
           {/* Headline */}
-          <h2 className="text-4xl md:text-6xl font-bold mb-6">
-            Join Kenya's First Dedicated Platform
+          <h2 className="text-4xl md:text-6xl font-bold mb-12">
+            Join Kenya's first dedicated platform for built environment professionals.
           </h2>
-          
-          {/* Subheadline */}
-          <p className="text-xl md:text-2xl mb-8 opacity-90 max-w-3xl mx-auto">
-            Connect with professionals, showcase your work, and unlock opportunities 
-            in Kenya's built environment industry.
-          </p>
 
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mb-12 max-w-2xl mx-auto">
@@ -72,7 +66,7 @@ const CTASection = () => {
 
           {/* Small print */}
           <p className="text-sm opacity-70 mt-8">
-            No credit card required • Join in under 2 minutes • Trusted by 50+ professionals
+            Trusted by AAK
           </p>
         </div>
       </div>
