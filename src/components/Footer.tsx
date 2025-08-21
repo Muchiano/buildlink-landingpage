@@ -1,4 +1,4 @@
-import { Building2, Mail, Linkedin, Twitter, Instagram } from "lucide-react";
+import { Building2, Mail, Linkedin, X, Instagram } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -47,7 +47,7 @@ const Footer = () => {
               <Linkedin size={20} />
             </a>
             <a href="#" className="text-primary-foreground/60 hover:text-secondary transition-colors">
-              <Twitter size={20} />
+              <X size={20} />
             </a>
             <a href="#" className="text-primary-foreground/60 hover:text-secondary transition-colors">
               <Instagram size={20} />

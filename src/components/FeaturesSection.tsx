@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Users, Building2, Calendar, BookOpen, ArrowRight } from "lucide-react";
+import { Users, Presentation, Calendar, BookOpen, ArrowRight } from "lucide-react";
 
 const features = [
   {
@@ -9,7 +9,7 @@ const features = [
     color: "primary"
   },
   {
-    icon: Building2,
+    icon: Presentation,
     title: "Showcase Projects",
     description: "Share your body of work with the community and build your professional portfolio.",
     color: "secondary"

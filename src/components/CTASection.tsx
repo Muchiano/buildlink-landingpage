@@ -45,22 +45,15 @@ const CTASection = () => {
             </div>
           </div>
 
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          {/* CTA Button */}
+          <div className="flex justify-center">
             <Button 
               variant="secondary" 
               size="lg" 
               className="text-lg px-12 py-6 bg-white text-primary hover:bg-white/90 shadow-xl"
             >
-              Get Started Free
+              Get Started for Free
               <ArrowRight className="ml-2" size={20} />
-            </Button>
-            <Button 
-              variant="outline" 
-              size="lg" 
-              className="text-lg px-12 py-6 border-2 border-white text-white hover:bg-white/10"
-            >
-              Learn More
             </Button>
           </div>
 
