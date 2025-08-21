@@ -17,30 +17,30 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 220 15% 15%;
 
-    /* Professional Blue - Trust & Stability */
-    --primary: 220 85% 25%;
+    /* BuildLink RedBrown - Original Brand */
+    --primary: 12 65% 35%;
     --primary-foreground: 0 0% 98%;
-    --primary-light: 220 75% 45%;
+    --primary-light: 12 55% 50%;
 
-    /* Warm Orange - Construction & Growth */
-    --secondary: 25 85% 55%;
-    --secondary-foreground: 0 0% 98%;
-    --secondary-light: 25 75% 65%;
+    /* Clean White - Professional & Modern */
+    --secondary: 0 0% 98%;
+    --secondary-foreground: 12 65% 35%;
+    --secondary-light: 0 0% 95%;
 
-    /* Fresh Green - Growth & Opportunity */
-    --accent: 140 70% 45%;
+    /* Deep RedBrown - Emphasis & Growth */
+    --accent: 8 70% 25%;
     --accent-foreground: 0 0% 98%;
-    --accent-light: 140 60% 55%;
+    --accent-light: 8 60% 40%;
 
-    --muted: 220 15% 96%;
-    --muted-foreground: 220 10% 45%;
+    --muted: 12 20% 95%;
+    --muted-foreground: 12 15% 45%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 220 15% 90%;
-    --input: 220 15% 90%;
-    --ring: 220 85% 25%;
+    --border: 12 15% 88%;
+    --input: 12 15% 88%;
+    --ring: 12 65% 35%;
 
     --radius: 0.75rem;
 
