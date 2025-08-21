@@ -11,11 +11,9 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <img 
-              src="/lovable-uploads/f589349a-95b6-4a45-a1c4-1929921fce33.png" 
-              alt="BuildLink Logo" 
-              className="h-10 w-10 rounded-md object-contain"
-            />
+            <div className="w-8 h-8 bg-hero-gradient rounded-md flex items-center justify-center">
+              <div className="w-4 h-4 border-2 border-white rotate-45"></div>
+            </div>
             <span className="text-xl font-bold text-primary">BuildLink</span>
           </div>
 
