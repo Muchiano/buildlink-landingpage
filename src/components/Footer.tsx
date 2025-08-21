@@ -10,9 +10,11 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-secondary rounded-md flex items-center justify-center">
-                <div className="w-4 h-4 border-2 border-white rotate-45"></div>
-              </div>
+              <img 
+                src="/lovable-uploads/8bb2d7d5-880a-49bf-8044-38bae8ca3b40.png" 
+                alt="BuildLink Logo" 
+                className="w-8 h-8"
+              />
               <span className="text-xl font-bold">BuildLink</span>
             </div>
           </div>
