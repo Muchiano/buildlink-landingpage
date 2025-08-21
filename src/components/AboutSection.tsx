@@ -9,7 +9,7 @@ const AboutSection = () => {
           {/* Content */}
           <div className="space-y-8">
             <div>
-              <h2 className="text-4xl md:text-5xl font-bold mb-6">
+              <h2 className="text-4xl md:text-5xl font-bold mb-6 text-center">
                 About <span className="text-primary">BuildLink</span>
               </h2>
               <p className="text-lg text-foreground leading-relaxed">
