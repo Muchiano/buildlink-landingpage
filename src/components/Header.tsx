@@ -1,0 +1,83 @@
+import { useState } from "react";
+import { Menu, X } from "lucide-react";
+import { Button } from "@/components/ui/button";
+
+const Header = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  return (
+    <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b">
+      <div className="container mx-auto px-6 py-4">
+        <div className="flex items-center justify-between">
+          {/* Logo */}
+          <div className="flex items-center space-x-2">
+            <div className="w-8 h-8 bg-hero-gradient rounded-md flex items-center justify-center">
+              <div className="w-4 h-4 border-2 border-white rotate-45"></div>
+            </div>
+            <span className="text-xl font-bold text-primary">BuildLink</span>
+          </div>
+
+          {/* Desktop Navigation */}
+          <nav className="hidden md:flex items-center space-x-8">
+            <a href="#home" className="text-foreground hover:text-primary transition-colors">
+              Home
+            </a>
+            <a href="#features" className="text-foreground hover:text-primary transition-colors">
+              Features
+            </a>
+            <a href="#directory" className="text-foreground hover:text-primary transition-colors">
+              Directory
+            </a>
+            <a href="#events" className="text-foreground hover:text-primary transition-colors">
+              Events
+            </a>
+            <Button variant="outline" size="sm">
+              Sign In
+            </Button>
+            <Button variant="cta" size="sm">
+              Join Now
+            </Button>
+          </nav>
+
+          {/* Mobile Menu Button */}
+          <button
+            className="md:hidden text-foreground hover:text-primary"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+          >
+            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
+        </div>
+
+        {/* Mobile Navigation */}
+        {isMenuOpen && (
+          <nav className="md:hidden mt-4 pb-4 border-t">
+            <div className="flex flex-col space-y-4 pt-4">
+              <a href="#home" className="text-foreground hover:text-primary transition-colors">
+                Home
+              </a>
+              <a href="#features" className="text-foreground hover:text-primary transition-colors">
+                Features
+              </a>
+              <a href="#directory" className="text-foreground hover:text-primary transition-colors">
+                Directory
+              </a>
+              <a href="#events" className="text-foreground hover:text-primary transition-colors">
+                Events
+              </a>
+              <div className="flex flex-col space-y-2 pt-4">
+                <Button variant="outline" size="sm" className="w-full">
+                  Sign In
+                </Button>
+                <Button variant="cta" size="sm" className="w-full">
+                  Join Now
+                </Button>
+              </div>
+            </div>
+          </nav>
+        )}
+      </div>
+    </header>
+  );
+};
+
+export default Header;

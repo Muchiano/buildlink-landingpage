@@ -1,0 +1,71 @@
+import { Button } from "@/components/ui/button";
+import { ArrowRight, Users, Building2, MapPin } from "lucide-react";
+import heroImage from "@/assets/hero-image.jpg";
+
+const HeroSection = () => {
+  return (
+    <section id="home" className="relative min-h-screen flex items-center pt-20">
+      {/* Background Image */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${heroImage})` }}
+      >
+        <div className="absolute inset-0 bg-gradient-to-r from-background/90 via-background/70 to-background/50"></div>
+      </div>
+
+      <div className="container mx-auto px-6 relative z-10">
+        <div className="max-w-4xl mx-auto text-center">
+          {/* Main Headline */}
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in-up">
+            Connecting Kenya's{" "}
+            <span className="bg-hero-gradient bg-clip-text text-transparent">
+              Built Environment
+            </span>
+            , Digitally.
+          </h1>
+
+          {/* Subheadline */}
+          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+            Discover professionals, showcase projects, and explore opportunities in one centralized platform for architects, engineers, and construction professionals across Kenya.
+          </p>
+
+          {/* CTA Buttons */}
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
+            <Button variant="hero" size="lg" className="text-lg px-8 py-6">
+              Join the Platform
+              <ArrowRight className="ml-2" size={20} />
+            </Button>
+            <Button variant="outline" size="lg" className="text-lg px-8 py-6 border-2">
+              Explore Directory
+            </Button>
+          </div>
+
+          {/* Quick Stats */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-2xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
+            <div className="flex items-center justify-center space-x-3 text-muted-foreground">
+              <Users className="text-primary" size={24} />
+              <span className="text-sm">Growing Community</span>
+            </div>
+            <div className="flex items-center justify-center space-x-3 text-muted-foreground">
+              <Building2 className="text-secondary" size={24} />
+              <span className="text-sm">Project Showcase</span>
+            </div>
+            <div className="flex items-center justify-center space-x-3 text-muted-foreground">
+              <MapPin className="text-accent" size={24} />
+              <span className="text-sm">Kenya-wide Network</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Scroll indicator */}
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+        <div className="w-6 h-10 border-2 border-primary rounded-full flex justify-center">
+          <div className="w-1 h-3 bg-primary rounded-full mt-2"></div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default HeroSection;
