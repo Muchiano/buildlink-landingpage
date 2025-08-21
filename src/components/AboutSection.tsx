@@ -20,7 +20,7 @@ const AboutSection = () => {
             </div>
 
             {/* Key Features */}
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <span className="font-medium text-center">#ProfessionalProfiles</span>
               <span className="font-medium text-center">#ProjectShowcase</span>
               <span className="font-medium text-center">#KnowledgeExchange</span>
