@@ -17,30 +17,30 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 220 15% 15%;
 
-    /* BuildLink RedBrown - Original Brand */
-    --primary: 12 65% 35%;
+    /* BuildLink Vibrant Red - Brand Color */
+    --primary: 0 75% 50%;
     --primary-foreground: 0 0% 98%;
-    --primary-light: 12 55% 50%;
+    --primary-light: 0 65% 60%;
 
     /* Clean White - Professional & Modern */
     --secondary: 0 0% 98%;
-    --secondary-foreground: 12 65% 35%;
+    --secondary-foreground: 0 75% 50%;
     --secondary-light: 0 0% 95%;
 
-    /* Deep RedBrown - Emphasis & Growth */
-    --accent: 8 70% 25%;
+    /* Deep Red - Emphasis & Growth */
+    --accent: 0 80% 40%;
     --accent-foreground: 0 0% 98%;
-    --accent-light: 8 60% 40%;
+    --accent-light: 0 70% 55%;
 
-    --muted: 12 20% 95%;
-    --muted-foreground: 12 15% 45%;
+    --muted: 0 10% 95%;
+    --muted-foreground: 0 5% 45%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 12 15% 88%;
-    --input: 12 15% 88%;
-    --ring: 12 65% 35%;
+    --border: 0 10% 88%;
+    --input: 0 10% 88%;
+    --ring: 0 75% 50%;
 
     --radius: 0.75rem;
 
