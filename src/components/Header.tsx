@@ -14,7 +14,7 @@ const Header = () => {
             <img 
               src="/lovable-uploads/f589349a-95b6-4a45-a1c4-1929921fce33.png" 
               alt="BuildLink Logo" 
-              className="h-9 w-9 rounded-md object-contain"
+              className="h-10 w-10 rounded-md object-contain"
             />
             <span className="text-xl font-bold text-primary">BuildLink</span>
           </div>
