@@ -43,7 +43,7 @@ const Footer = () => {
             <a href="mailto:hello@buildlink.co.ke" className="text-primary-foreground/60 hover:text-secondary transition-colors">
               <Mail size={20} />
             </a>
-            <a href="#" className="text-primary-foreground/60 hover:text-secondary transition-colors">
+            {/* <a href="#" className="text-primary-foreground/60 hover:text-secondary transition-colors">
               <Linkedin size={20} />
             </a>
             <a href="#" className="text-primary-foreground/60 hover:text-secondary transition-colors">
@@ -51,7 +51,7 @@ const Footer = () => {
             </a>
             <a href="#" className="text-primary-foreground/60 hover:text-secondary transition-colors">
               <Instagram size={20} />
-            </a>
+            </a> */}
           </div>
         </div>
 
