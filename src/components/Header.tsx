@@ -36,6 +36,11 @@ const Header = () => {
             <Button variant="cta" size="sm">
               Join Now
             </Button>
+            <a href="https://forms.gle/kRmJear755mTuM796" target="_blank" rel="noopener noreferrer">
+              <Button variant="cta" size="sm">
+                Join Now
+              </Button>
+            </a>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -64,9 +69,11 @@ const Header = () => {
                 {/* <Button variant="outline" size="sm" className="w-full">
                   Sign In
                 </Button> */}
-                <Button variant="cta" size="sm" className="w-full">
-                  Join Now
-                </Button>
+                <a href="https://forms.gle/kRmJear755mTuM796" target="_blank" rel="noopener noreferrer">
+                  <Button variant="cta" size="sm">
+                    Join Now
+                  </Button>
+                </a>
               </div>
             </div>
           </nav>
