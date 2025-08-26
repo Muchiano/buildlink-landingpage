@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Users, Building2 } from "lucide-react";
 
 const CTASection = () => {
   return (
@@ -20,7 +20,7 @@ const CTASection = () => {
               <Users size={32} />
             </div>
             <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center">
-              <Building size={32} />
+              <Building2 size={32} />
             </div>
           </div>
 
