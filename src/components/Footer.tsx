@@ -19,7 +19,7 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div className="text-center">
-            <div className="flex justify-center space-x-6">
+            <div className="flex md:justify-center justify-start space-x-6">
               <a href="#" className="text-primary-foreground/80 hover:text-secondary transition-colors">
                 Privacy Policy
               </a>
@@ -30,7 +30,7 @@ const Footer = () => {
           </div>
 
           {/* Contact Icons */}
-          <div className="flex justify-center space-x-4">
+          <div className="flex md:justify-center justify-start space-x-4">
             <a href="mailto:hello@buildlink.co.ke" className="text-primary-foreground/60 hover:text-secondary transition-colors">
               <Mail size={20} />
             </a>
