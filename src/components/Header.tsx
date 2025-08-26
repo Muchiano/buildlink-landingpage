@@ -27,11 +27,8 @@ const Header = () => {
             <a href="#features" className="text-foreground hover:text-primary transition-colors">
               Features
             </a>
-            <a href="#directory" className="text-foreground hover:text-primary transition-colors">
-              Directory
-            </a>
-            <a href="#events" className="text-foreground hover:text-primary transition-colors">
-              Events
+            <a href="#process" className="text-foreground hover:text-primary transition-colors">
+              Process
             </a>
             {/* <Button variant="outline" size="sm">
               Sign In
@@ -54,18 +51,15 @@ const Header = () => {
         {isMenuOpen && (
           <nav className="md:hidden mt-4 pb-4 border-t">
             <div className="flex flex-col space-y-4 pt-4">
-              <a href="#home" className="text-foreground hover:text-primary transition-colors">
-                Home
-              </a>
-              <a href="#features" className="text-foreground hover:text-primary transition-colors">
-                Features
-              </a>
-              <a href="#directory" className="text-foreground hover:text-primary transition-colors">
-                Directory
-              </a>
-              <a href="#events" className="text-foreground hover:text-primary transition-colors">
-                Events
-              </a>
+                <a href="#home" className="text-foreground hover:text-primary transition-colors">
+              Home
+            </a>
+            <a href="#features" className="text-foreground hover:text-primary transition-colors">
+              Features
+            </a>
+            <a href="#process" className="text-foreground hover:text-primary transition-colors">
+              Process
+            </a>
               <div className="flex flex-col space-y-2 pt-4">
                 {/* <Button variant="outline" size="sm" className="w-full">
                   Sign In
