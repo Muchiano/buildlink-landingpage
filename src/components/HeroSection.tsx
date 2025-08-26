@@ -43,16 +43,16 @@ const HeroSection = () => {
           {/* Quick Stats */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-2xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
             <div className="flex items-center justify-center space-x-3">
-              <Users className="text-primary" size={24} />
-              <span className="text-sm text-foreground">Growing Community</span>
+              <Users className="text-primary" size={30} />
+              <span className="text-base text-foreground">Growing Community</span>
             </div>
             <div className="flex items-center justify-center space-x-3">
-              <Building2 className="text-primary" size={24} />
-              <span className="text-sm text-foreground">Project Showcase</span>
+              <Building2 className="text-primary" size={30} />
+              <span className="text-base text-foreground">Project Showcase</span>
             </div>
             <div className="flex items-center justify-center space-x-3">
-              <MapPin className="text-primary" size={24} />
-              <span className="text-sm text-foreground">Kenya-wide Network</span>
+              <MapPin className="text-primary" size={30} />
+              <span className="text-base text-foreground">Kenya-wide Network</span>
             </div>
           </div>
         </div>
