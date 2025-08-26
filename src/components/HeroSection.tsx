@@ -31,10 +31,13 @@ const HeroSection = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
-            <Button variant="hero" size="lg" className="text-lg px-8 py-6">
-              Join the Waitist
-              <ArrowRight className="ml-2" size={20} />
-            </Button>
+            <a href="https://forms.gle/kRmJear755mTuM796" target="_blank" rel="noopener noreferrer">
+              <Button variant="hero" size="lg" className="text-lg px-8 py-6">
+                Join the Waitlist
+                <ArrowRight className="ml-2" size={20} />
+              </Button>
+            </a>
+
           </div>
 
           {/* Quick Stats */}
