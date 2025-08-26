@@ -12,7 +12,7 @@ const features = [
     icon: Presentation,
     title: "Showcase Projects",
     description: "Share your body of work with the community and build your professional portfolio.",
-    color: "secondary"
+    color: "primary"
   },
   {
     icon: Calendar,
