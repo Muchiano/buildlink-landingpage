@@ -44,15 +44,15 @@ const HeroSection = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-2xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
             <div className="flex items-center justify-center space-x-3">
               <Users className="text-primary" size={30} />
-              <span className="text-base text-foreground">Growing Community</span>
+              <span className="text-lg text-foreground">Growing Community</span>
             </div>
             <div className="flex items-center justify-center space-x-3">
               <Building2 className="text-primary" size={30} />
-              <span className="text-base text-foreground">Project Showcase</span>
+              <span className="text-lg text-foreground">Project Showcase</span>
             </div>
             <div className="flex items-center justify-center space-x-3">
               <MapPin className="text-primary" size={30} />
-              <span className="text-base text-foreground">Kenya-wide Network</span>
+              <span className="text-lg text-foreground">Kenya-wide Network</span>
             </div>
           </div>
         </div>
