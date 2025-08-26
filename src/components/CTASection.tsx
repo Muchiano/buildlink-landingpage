@@ -22,7 +22,8 @@ const CTASection = () => {
 
           {/* CTA Button */}
           <div className="flex justify-center">
-            <Button 
+            <a href="https://forms.gle/kRmJear755mTuM796" target="_blank" rel="noopener noreferrer">
+              <Button 
               variant="secondary" 
               size="lg" 
               className="text-lg px-12 py-6 bg-white text-primary hover:bg-white/90 shadow-xl"
@@ -30,6 +31,7 @@ const CTASection = () => {
               Join Our Waitlist
               <ArrowRight className="ml-2" size={20} />
             </Button>
+            </a>
           </div>
 
           {/* Small print */}
