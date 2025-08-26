@@ -27,12 +27,15 @@ const Header = () => {
             <a href="#features" className="text-foreground hover:text-primary transition-colors">
               Features
             </a>
-            <a href="#process" className="text-foreground hover:text-primary transition-colors">
-              Process
+            <a href="#directory" className="text-foreground hover:text-primary transition-colors">
+              Directory
             </a>
-            <Button variant="outline" size="sm">
+            <a href="#events" className="text-foreground hover:text-primary transition-colors">
+              Events
+            </a>
+            {/* <Button variant="outline" size="sm">
               Sign In
-            </Button>
+            </Button> */}
             <Button variant="cta" size="sm">
               Join Now
             </Button>
@@ -57,13 +60,16 @@ const Header = () => {
               <a href="#features" className="text-foreground hover:text-primary transition-colors">
                 Features
               </a>
-              <a href="#process" className="text-foreground hover:text-primary transition-colors">
-                Process
+              <a href="#directory" className="text-foreground hover:text-primary transition-colors">
+                Directory
+              </a>
+              <a href="#events" className="text-foreground hover:text-primary transition-colors">
+                Events
               </a>
               <div className="flex flex-col space-y-2 pt-4">
-                <Button variant="outline" size="sm" className="w-full">
+                {/* <Button variant="outline" size="sm" className="w-full">
                   Sign In
-                </Button>
+                </Button> */}
                 <Button variant="cta" size="sm" className="w-full">
                   Join Now
                 </Button>
