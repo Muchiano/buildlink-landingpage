@@ -33,9 +33,6 @@ const Header = () => {
             {/* <Button variant="outline" size="sm">
               Sign In
             </Button> */}
-            <Button variant="cta" size="sm">
-              Join Now
-            </Button>
             <a href="https://forms.gle/kRmJear755mTuM796" target="_blank" rel="noopener noreferrer">
               <Button variant="cta" size="sm">
                 Join Now
