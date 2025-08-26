@@ -6,13 +6,13 @@ const Footer = () => {
   return (
     <footer className="bg-primary text-primary-foreground py-12">
       <div className="container mx-auto px-6">
-        <div className="grid grid-cols-[200px_1fr_1fr] gap-8 mb-8">
+        <div className="grid md:grid-cols-[200px_1fr_1fr] grid-cols-1 gap-8 mb-8">
           {/* Brand */}
            <div className="flex items-center space-x-2">
             <img 
               src="/lovable-uploads/61381431-b6bc-4161-afb6-ae3b78b1e4bb.png" 
               alt="BuildLink Logo" 
-              className="w-auto h-10"
+              className="w-full h-8"
             />
             <span className="text-xl font-bold text-primary text-white">BuildLink</span>
           </div>
