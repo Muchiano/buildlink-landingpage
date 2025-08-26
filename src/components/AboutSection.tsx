@@ -5,7 +5,7 @@ const AboutSection = () => {
   return (
     <section className="py-20 bg-section-gradient">
       <div className="container mx-auto px-6">
-        <div className="grid grid-cols-1 gap-12 items-center">
+        <div className="grid grid-cols-1 gap-12 max-w-4xl mx-auto items-center">
           {/* Content */}
           <div className="space-y-8">
             <div>
