@@ -35,9 +35,6 @@ const HeroSection = () => {
               Join the Waitist
               <ArrowRight className="ml-2" size={20} />
             </Button>
-            <Button variant="outline" size="lg" className="text-lg px-8 py-6 border-2">
-              Explore Directory
-            </Button>
           </div>
 
           {/* Quick Stats */}
