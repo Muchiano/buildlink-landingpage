@@ -30,7 +30,7 @@ const Footer = () => {
           </div>
 
           {/* Contact Icons */}
-          <div className="flex justify-end space-x-4">
+          <div className="flex justify-center space-x-4">
             <a href="mailto:hello@buildlink.co.ke" className="text-primary-foreground/60 hover:text-secondary transition-colors">
               <Mail size={20} />
             </a>
