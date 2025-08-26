@@ -20,20 +20,11 @@ const Footer = () => {
           {/* Quick Links */}
           <div className="text-center">
             <div className="flex justify-center space-x-6">
-              <a href="#about" className="text-primary-foreground/80 hover:text-secondary transition-colors">
-                About
+              <a href="#" className="text-primary-foreground/80 hover:text-secondary transition-colors">
+                Privacy Policy
               </a>
-              <a href="#contact" className="text-primary-foreground/80 hover:text-secondary transition-colors">
-                Contact
-              </a>
-              <a href="#blog" className="text-primary-foreground/80 hover:text-secondary transition-colors">
-                Blog
-              </a>
-              <a href="#terms" className="text-primary-foreground/80 hover:text-secondary transition-colors">
-                Terms
-              </a>
-              <a href="#privacy" className="text-primary-foreground/80 hover:text-secondary transition-colors">
-                Privacy
+              <a href="#" className="text-primary-foreground/80 hover:text-secondary transition-colors">
+                Terms of Service
               </a>
             </div>
           </div>
@@ -61,17 +52,6 @@ const Footer = () => {
             <p className="text-primary-foreground/60 text-sm">
               © {currentYear} BuildLink. All rights reserved.
             </p>
-            <div className="flex space-x-6 text-sm">
-              <a href="#privacy" className="text-primary-foreground/60 hover:text-secondary transition-colors">
-                Privacy Policy
-              </a>
-              <a href="#terms" className="text-primary-foreground/60 hover:text-secondary transition-colors">
-                Terms of Service
-              </a>
-              <a href="#cookies" className="text-primary-foreground/60 hover:text-secondary transition-colors">
-                Cookie Policy
-              </a>
-            </div>
           </div>
         </div>
       </div>
