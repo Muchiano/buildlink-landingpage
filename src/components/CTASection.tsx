@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Users, Building } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 const CTASection = () => {
   return (
@@ -13,16 +13,6 @@ const CTASection = () => {
       </div>
 
       <div className="container mx-auto px-6 relative z-10">
-        <div className="max-w-4xl mx-auto text-center text-white">
-          {/* Icon */}
-          <div className="flex justify-center space-x-4 mb-8">
-            <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center">
-              <Users size={32} />
-            </div>
-            <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center">
-              <Building size={32} />
-            </div>
-          </div>
 
           {/* Headline */}
           <h2 className="text-4xl md:text-6xl font-bold mb-12">
