@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Users, Building2 } from "lucide-react";
 
 const CTASection = () => {
   return (
