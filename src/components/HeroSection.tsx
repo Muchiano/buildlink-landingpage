@@ -41,7 +41,7 @@ const HeroSection = () => {
           </div>
 
           {/* Quick Stats */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-2xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
             <div className="flex items-center justify-center space-x-3">
               <Users className="text-primary" size={30} />
               <span className="text-lg text-foreground">Growing Community</span>
