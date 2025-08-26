@@ -24,7 +24,7 @@ const steps = [
 
 const HowItWorksSection = () => {
   return (
-    <section className="py-20 bg-section-gradient">
+    <section id="process" className="py-20 bg-section-gradient">
       <div className="container mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-16">
