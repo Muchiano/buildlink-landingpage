@@ -8,15 +8,14 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
-          <div className="space-y-4">
-            <div className="flex items-center space-x-2">
-               <img 
+           <div className="flex items-center space-x-2">
+            <img 
               src="/lovable-uploads/0da7972b-b02a-46e2-be61-3918d1873dda.png" 
               alt="BuildLink Logo" 
               className="w-full h-12"
             />
-              <span className="text-xl font-bold">BuildLink</span>
-            </div>
+            <span className="text-xl font-bold text-primary">BuildLink</span>
+          </div>
           </div>
 
           {/* Quick Links */}
