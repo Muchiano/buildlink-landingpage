@@ -32,7 +32,7 @@ const HeroSection = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
             <Button variant="hero" size="lg" className="text-lg px-8 py-6">
-              Join the Platform
+              Join the Waitist
               <ArrowRight className="ml-2" size={20} />
             </Button>
             <Button variant="outline" size="lg" className="text-lg px-8 py-6 border-2">
@@ -41,7 +41,7 @@ const HeroSection = () => {
           </div>
 
           {/* Quick Stats */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-2xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
             <div className="flex items-center justify-center space-x-3">
               <Users className="text-primary" size={30} />
               <span className="text-lg text-foreground">Growing Community</span>
