@@ -11,9 +11,11 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-hero-gradient rounded-md flex items-center justify-center">
-              <div className="w-4 h-4 border-2 border-white rotate-45"></div>
-            </div>
+            <img 
+              src="/lovable-uploads/0da7972b-b02a-46e2-be61-3918d1873dda.png" 
+              alt="BuildLink Logo" 
+              className="w-8 h-8"
+            />
             <span className="text-xl font-bold text-primary">BuildLink</span>
           </div>
 
