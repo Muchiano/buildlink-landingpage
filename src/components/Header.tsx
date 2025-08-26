@@ -27,11 +27,8 @@ const Header = () => {
             <a href="#features" className="text-foreground hover:text-primary transition-colors">
               Features
             </a>
-            <a href="#directory" className="text-foreground hover:text-primary transition-colors">
-              Directory
-            </a>
-            <a href="#events" className="text-foreground hover:text-primary transition-colors">
-              Events
+            <a href="#process" className="text-foreground hover:text-primary transition-colors">
+              Process
             </a>
             <Button variant="outline" size="sm">
               Sign In
@@ -60,11 +57,8 @@ const Header = () => {
               <a href="#features" className="text-foreground hover:text-primary transition-colors">
                 Features
               </a>
-              <a href="#directory" className="text-foreground hover:text-primary transition-colors">
-                Directory
-              </a>
-              <a href="#events" className="text-foreground hover:text-primary transition-colors">
-                Events
+              <a href="#process" className="text-foreground hover:text-primary transition-colors">
+                Process
               </a>
               <div className="flex flex-col space-y-2 pt-4">
                 <Button variant="outline" size="sm" className="w-full">
