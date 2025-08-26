@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Brand */}
            <div className="flex items-center space-x-2">
             <img 
-              src="/lovable-uploads/0da7972b-b02a-46e2-be61-3918d1873dda.png" 
+              src="/lovable-uploads/61381431-b6bc-4161-afb6-ae3b78b1e4bb.png" 
               alt="BuildLink Logo" 
               className="w-full h-12"
             />
