@@ -12,7 +12,7 @@ const Footer = () => {
             <img 
               src="/lovable-uploads/61381431-b6bc-4161-afb6-ae3b78b1e4bb.png" 
               alt="BuildLink Logo" 
-              className="w-ful h-8"
+              className="w-auto h-10"
             />
             <span className="text-xl font-bold text-primary text-white">BuildLink</span>
           </div>
