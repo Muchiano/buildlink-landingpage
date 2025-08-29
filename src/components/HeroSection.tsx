@@ -16,7 +16,7 @@ const HeroSection = () => {
       <div className="container mx-auto px-6 pb-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           {/* Main Headline */}
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in-up">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 px-4 animate-fade-in-up">
             Connecting Kenya's{" "}
             <span className="bg-hero-gradient bg-clip-text text-transparent">
               Built Environment
