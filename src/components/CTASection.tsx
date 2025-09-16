@@ -22,7 +22,7 @@ const CTASection = () => {
 
           {/* CTA Button */}
           <div className="flex justify-center">
-            <a href="https://forms.gle/kRmJear755mTuM796" target="_blank" rel="noopener noreferrer">
+            <a href="#">
               <Button 
               variant="secondary" 
               size="lg" 
