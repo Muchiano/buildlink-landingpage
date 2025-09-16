@@ -31,9 +31,9 @@ const HeroSection = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
-            <a href="https://forms.gle/kRmJear755mTuM796" target="_blank" rel="noopener noreferrer">
+            <a href="#">
               <Button variant="hero" size="lg" className="text-lg px-8 py-6">
-                Join the Waitlist
+                Register
                 <ArrowRight className="ml-2" size={20} />
               </Button>
             </a>
