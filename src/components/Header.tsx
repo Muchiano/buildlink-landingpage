@@ -30,13 +30,10 @@ const Header = () => {
             <a href="#process" className="text-foreground hover:text-primary transition-colors">
               Process
             </a>
-            {/* <Button variant="outline" size="sm">
-              Sign In
-            </Button> */}
-            <a href="https://forms.gle/kRmJear755mTuM796" target="_blank" rel="noopener noreferrer">
-              <Button variant="cta" size="sm">
-                Join Now
-              </Button>
+            <a href="#" target="_blank"
+            <Button variant="outline" size="sm">
+              Register
+            </Button>
             </a>
           </nav>
 
@@ -63,13 +60,10 @@ const Header = () => {
               Process
             </a>
               <div className="flex flex-col space-y-2 pt-4">
-                {/* <Button variant="outline" size="sm" className="w-full">
+               <a href="#" target="_blank" rel="noopener noreferrer">
+                <Button variant="cta" size="sm" className="w-full">
                   Sign In
-                </Button> */}
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                  <Button variant="cta" size="sm">
-                    Join Now
-                  </Button>
+                </Button>
                 </a>
               </div>
             </div>
